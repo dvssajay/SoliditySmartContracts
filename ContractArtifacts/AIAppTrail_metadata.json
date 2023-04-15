@@ -1,0 +1,298 @@
+{
+	"compiler": {
+		"version": "0.6.4+commit.1dca32f3"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "AppHashToAppID",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "AppHashToAppOwner",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "AppHashToAppTrailFee",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "AppHashToComputeFee",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_AppHash",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_AppTrailFee",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_ComputeFee",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_AppID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_AppOwner",
+						"type": "string"
+					}
+				],
+				"name": "RegisterAIApp",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressToTransactionAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "catalog",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "AppID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "AppHash",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "AppTrailFee",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ComputeFee",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "AppOwner",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ethAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "getConversionRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaTransfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transactions",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AIAppTrail.sol": "AIAppTrail"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AIAppTrail.sol": {
+			"keccak256": "0x17ffab52fa3c92a681a80764cf61d867d5ad34d7d8e41c964c1f0da7b0802ee2",
+			"urls": [
+				"bzz-raw://e5bc4167c5186486f8dad104615b8abe4ddb53b4a4b11e8e378a60b61693ae8c",
+				"dweb:/ipfs/QmX7r4r6mbKNxim1BxqFY3L3BgPtVQwBdTagASMyYyB32w"
+			]
+		},
+		"contracts/main.sol": {
+			"keccak256": "0xa9a5e4b1d163602449a54a21ca8d89bfd304eba2ecc663303285c79178b0ded3",
+			"urls": [
+				"bzz-raw://87b2a0ec5d05bad4ef72701135794535f4b7910ca43bea82d14f564d227d9fb7",
+				"dweb:/ipfs/QmZTp9tTd9cF4PX1fqvMzgYbfSHD2R6uuUKcmEmWFZJM9z"
+			]
+		}
+	},
+	"version": 1
+}

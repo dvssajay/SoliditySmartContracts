@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "AI_App_hashToAI_App_ID",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "AI_App_ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "AI_App_hash",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_AI_App_hash",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_AI_App_ID",
+						"type": "uint256"
+					}
+				],
+				"name": "registerAIApp",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_AI_App_ID",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/main.sol": "Marketplace"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/main.sol": {
+			"keccak256": "0x52e9a68cf3c6a90967f3842c36be2246a64feb9a81c448fac8780409823e3179",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1ecba16adaaf3b46aafbee54a88f032d63ba9a2be41406f41b1ba34cee553196",
+				"dweb:/ipfs/QmdbpdAyqJ4jbJ3ZqCnam9RBszsEMh357bKLn4kLqesmN4"
+			]
+		}
+	},
+	"version": 1
+}
